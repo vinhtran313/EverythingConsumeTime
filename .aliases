@@ -1,0 +1,14 @@
+# NAVIGATION
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+# COMMON DIRECTORIES
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias home="cd ~"
+alias ws="cd ~/Desktop/Workspace"
+# GIT
+alias g="git"
+alias gs="git status"
+alias cl="clear"

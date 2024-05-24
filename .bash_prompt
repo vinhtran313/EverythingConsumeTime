@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+# TERMINAL PROMPT
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\[\e[38;5;172;1m\]\u\[\e[0m\] \[\e[38;5;129m\]\w\[\e[0m\] (\[\e[38;5;40m\]${PS1_CMD1}\[\e[0m\]) =>'
+
+export PS1;
